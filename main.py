@@ -58,7 +58,7 @@ def notify_via_email(keywords):
         service = build('gmail', 'v1', credentials=creds)
         message = EmailMessage()
 
-        message['To'] = 'olledejong@gmail.com'
+        message['To'] = 'dirk.schwertasek@gmail.com'
         message['From'] = 'mijn.notifier@gmail.com'
         message['Subject'] = 'Potential listing of interest'
 
